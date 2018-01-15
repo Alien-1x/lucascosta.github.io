@@ -1,0 +1,105 @@
+@font-face {
+	font-family: armata;
+	src: url(../font/armata.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	background-color: #ececec;
+}
+header {
+	width: 100%;
+	margin: 0px;
+	padding: 15px;
+	background-color: #1e824c;
+}
+.login {
+	max-width: 1280px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin: 0 auto;
+}
+.login img {
+	height: 35px;
+	align-self: flex-start;
+}
+.login-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.login input {
+	border: none;
+	font-family: armata;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding: 4px;
+}
+.login button {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: #1e824c;
+	font-family: armata;
+	font-size: 16px;
+	margin: 2px 2px;
+	padding: 4px;
+	cursor: pointer;
+}
+.register {
+	max-width: 1280px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 60px;
+}
+.register form {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.register img {
+	width: 676px;
+	height: 450px;
+	margin: 0px 40px 0px 0px;
+}
+.register input {
+	border: none;
+	font-family: armata;
+	font-size: 18px;
+	margin: 4px 0px;
+	padding: 4px;
+}
+.register button {
+	border: none;
+	color: #ffffff;
+	background-color: #1e824c;
+	font-family: armata;
+	font-size: 18px;
+	margin: 4px 0px;
+	padding: 4px;
+	cursor: pointer;
+}
+footer {
+	max-width: 1280;
+	height: 65px;
+	background-color: #c4efd8;
+	display: flex;
+	justify-content: center;
+}
+footer h1 {
+	margin: 0 auto;
+	align-self: center;
+	font-family: armata;
+	font-size: 16px;
+	color: #098241;
+}

@@ -1,0 +1,362 @@
+@font-face {
+	font-family: andika;
+	src: url(../font/andika.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+body, section, div, img, h1, h2, h3, p, ul, li, a, span {
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+header {
+	background-color: #2c70ff;
+}
+.superinfo-bg {
+	background-color: #122ab2;
+	font-family: andika;
+}
+.superinfo {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: white;
+	font-size: 14px;
+}
+.superinfo p {
+	margin: 10px;
+}
+.menu {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 10px 5px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.menu ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu li {
+	margin: 20px;
+	font-size: 18px;
+	display: block;
+}
+.menu a {
+	font-family: andika;
+	color: white;
+	font-weight: bolder;
+}
+.menu a:hover {
+	color: #122ab2;
+}
+.menu-logo {
+	font-size: 36px;
+	margin: 10px;
+}
+.introducao {
+	font-family: andika;
+	font-size: 46px;
+	font-weight: bolder;
+	line-height: 72px;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 60px 10px;
+}
+#sobre {
+	border-top: 2px solid #2c70ff;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 60px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: andika;
+}
+.sobre-info {
+	margin: 0 16px;
+	flex-grow: 2;
+	flex-shrink: 1;
+	flex-basis: 320px;
+}
+.sobre-img {
+	margin: 0 16px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 240px;
+}
+.sobre-info h2 {
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+.sobre-info p {
+	font-size: 18px;
+	line-height: 42px;
+	text-align: justify;
+	margin-bottom: 32px;
+	color: #7c7c7c;
+}
+#produtos{
+	border-top: 2px solid #2c70ff;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 60px 0px;
+	font-family: andika;
+}
+#produtos h2 {
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 24px;
+	margin: 0 16px;
+}
+.produtos-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	padding: 0px 16px;
+}
+.produtos-item{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 200px;
+	margin: 16px;
+}
+.produtos-item h3 {
+	padding: 60px 10px;
+	font-size: 38px;
+	color: #a3a3a3;
+	background-color: #efefef;
+}
+.purple{
+	border-top: 8px solid #663399;
+}
+.pink {
+	border-top: 8px solid #f62459;
+}
+.blue {
+	border-top: 8px solid #2c70ff;
+}
+#preco {
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: flex-start;
+	padding: 60px;
+}
+.cobre {
+	margin: 10px;
+	padding: 20px;
+	border: 4px solid #ffffff;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+.prata {
+	margin: 10px;
+	padding: 20px;
+	border: 4px solid #ffffff;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+.ouro {
+	margin: 10px;
+	padding: 20px;
+	border: 4px solid #ffffff;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+#preco h3 {
+	font-family: andika;
+	font-size: 42px;
+	font-weight: bolder;
+	text-align: center;
+	color: #a4a4a4;
+	padding-bottom: 20px;
+}
+#preco span {
+	max-width: 300px;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	font-family: andika;
+	font-size: 42px;
+	font-weight: bold;
+	padding: 10px 0px;
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+}
+#preco sup {
+	font-size: 21px;
+}
+#preco ul {
+	max-width: 300px;
+	margin: 20px auto;
+	font-family: andika;
+	font-size: 18px;
+	color: #7c7c7c;
+	font-style: italic;
+}
+#preco li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+#preco li::after {
+	content: '';
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #2c70ff;
+}
+#preco a {
+	max-width: 200px;
+	margin: 40px auto;
+	display: block;
+	font-family: andika;
+	font-size: 32px;
+	border: 4px solid #222222;
+	color: #222222;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+#qualidade {
+	max-width: 1280px;
+	margin: 60px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.qualidade-item {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 360px;
+	margin: 20px 20px;
+}
+.qualidade-item h3 {
+	font-family: andika;
+	font-size: 32px;
+	margin-bottom: 16px;
+	padding-left: 8px;
+	font-weight: bolder;
+	color: #6d6d6d;
+}
+.qualidade-item p {
+	font-family: andika;
+	font-size: 18px;
+	text-align: justify;
+	color: #7c7c7c;
+}
+.border-purple {
+	border-left: 6px solid #663399;
+}
+.border-pink {
+	border-left: 6px solid #f62459;
+}
+.border-blue {
+	border-left: 6px solid #2c70ff;
+}
+.newsletter {
+	background-color: #f7f7f7;
+}
+.newsletter-content {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 40px;
+}
+.newsletter-info {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 280px;
+}
+.newsletter-info h1 {
+	font-family: andika;
+	font-size: 48px;
+	font-weight: bolder;
+	margin: 10px;
+	color: #a4a4a4;
+}
+.newsletter-info p {
+	font-family: andika;
+	font-size: 18px;
+	margin: 10px;
+	font-style: italic;
+	color: #7c7c7c;
+}
+.newsletter-form {
+	flex-grow: 2;
+	flex-shrink: 1;
+	flex-basis: 280px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.newsletter-form input {
+	flex-grow: 3;
+	flex-shrink: 1;
+	flex-basis: 200px;
+	font-family: andika;
+	font-size: 20px;
+	font-style: italic;
+	border: 4px solid #2c70ff;
+	background-color: transparent;
+	padding: 10px;
+	margin: 10px 0px;
+	color: #7c7c7c;
+}
+.newsletter-form button {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100px;
+	color: #ffffff;
+	font-family: andika;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border: 4px solid #2c70ff;
+	background-color: #2c70ff;
+	padding: 10px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+footer {
+	height: 160px;
+	background-color: #2c70ff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer h1 {
+	font-family: andika;
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 0px;
+	color: #ffffff;
+}

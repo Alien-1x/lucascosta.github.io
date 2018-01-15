@@ -1,0 +1,145 @@
+@font-face {
+	font-family: andika;
+	src: url(../font/andika.ttf);
+}
+@font-face {
+	font-family: elegantech;
+	src: url(../font/elegantech.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	background-color: #ececec;
+}
+header {
+	background-color: #e71130;
+}
+header div {
+	max-width: 1280px;
+	display: flex;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+header h1 {
+	margin: 0;
+	font-family: elegantech;
+	font-size: 40px;
+	color: #ffffff;
+}
+blockquote {
+	margin: 20px 0px;
+	font-family: andika;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	color: #000000;
+	background-color: #fcf4d9;
+	border: 2px dashed #f4d03f;
+}
+blockquote a {
+	text-decoration: none;
+	color:  #e71130;
+}
+#content {
+	max-width: 1280px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+#social {
+	flex-direction: row;
+	margin: 20px;
+}
+#social img {
+	width: 40px;
+	margin-bottom: 15px;
+}
+#text {
+	display: block;
+	max-width: 800px;
+	padding: 30px;
+	background-color: #ffffff;
+}
+#text img {
+	width: 100%;
+}
+#text h2 {
+	margin: 0;
+	font-family: elegantech;
+	font-size: 36px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+#text h3 {
+	margin: 0;
+	font-family: andika;
+	font-size: 12px;
+	color: #6c7a89;
+	margin-bottom: 10px;
+}
+#text span {
+	text-transform: uppercase;
+	color: #000000;
+}
+#text p {
+	margin: 20px 0px;
+	font-family: andika;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 40px;
+	color: #000000;
+}
+#text figcaption {
+	margin: 0;
+	font-family: andika;
+	font-size: 12px;
+	text-align: justify;
+	color: #000000;
+	margin-bottom: 16px;
+}
+#more {
+	display: block;
+	max-width: 368px;
+	padding: 16px;
+}
+#more h4 {
+	margin: 20px 0px;
+	font-family: andika;
+	font-size: 18px;
+	color: #6c7a89;
+	border-bottom: 2px solid #e71130;
+}
+#more div {
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+#more img {
+	margin: 5px 0px;
+}
+.article {
+	max-width: 336px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.article h5 {
+	margin: 0px;
+	font-family: andika;
+	font-size: 12px;
+	color: #6c7a89;
+	text-transform: uppercase;
+}
+.article h6 {
+	margin: 0px;
+	font-family: andika;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
+}
+.article div {
+	max-width: 160px;
+	margin: 0 8px;
+}
