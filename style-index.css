@@ -61,6 +61,17 @@ header {
 	text-decoration: none;
 	color: #ffffff;
 }
+.menu {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+#voltar {
+	display: none;
+	cursor: pointer;
+}
 #profile {
 	margin: 0px auto;
 	padding: 160px 0px;
@@ -177,4 +188,67 @@ header {
 	flex-shrink: 1,
 	flex-basis: 320px;
 	text-align: center;
+}
+@media (max-width: 768px){
+	.navigation a {
+		display: none;
+	}
+	.navigation ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	.navigation li {
+		margin: 0px;
+		padding: 0px;
+	}
+	.menu {
+		display: flex;
+	}
+	#profile-picture img {
+		width: 250px;
+		height: 250px;
+		margin: 10px;
+	}
+	#profile-text h1 {
+		font-size: 42px;
+		text-align: center;
+	}
+	#profile-text h2 {
+		font-size: 22px;
+		text-align: center;
+	}
+	#profile-text p {
+		font-size: 18px;
+	}
+	.blackbox {
+		opacity: 0.8;
+	}
+	.menujs ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px auto;
+		margin-bottom: 10px;
+		padding: 0px;
+	}
+	.menujs a {
+		display: block;
+	}
+	.menujs #voltar {
+		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: none;
+	}
+	.menujs li {
+		width: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 2px solid #ffffff;
+	}
+	.menujs #menu {
+		display: none;
+	}
 }
